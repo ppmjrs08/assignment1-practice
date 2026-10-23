@@ -1,0 +1,12 @@
+{
+  "checkpoint": "checkpoints/quickstart/best.pt",
+  "checkpoint_step": 1500,
+  "checkpoint_sha256": "bd21dce57957076683d4c53270cc9230326242e25bf8aa5164a21eac5edc9ff6",
+  "prompt": "Once upon a time",
+  "max_new_tokens": 120,
+  "temperature": 0.8,
+  "top_k": 40,
+  "seed": 42,
+  "total_tokens": 124,
+  "device": "cpu"
+}

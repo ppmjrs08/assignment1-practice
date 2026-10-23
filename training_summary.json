@@ -1,0 +1,36 @@
+{
+  "steps": 1500,
+  "batch_size": 8,
+  "seed": 42,
+  "config": {
+    "vocab_size": 2048,
+    "d_model": 128,
+    "num_heads": 4,
+    "num_layers": 2,
+    "context_length": 128
+  },
+  "parameter_count": 950912,
+  "device": "cpu",
+  "threads": 4,
+  "torch_version": "2.14.0+cpu",
+  "baseline_val_loss": 7.649429297447204,
+  "best_val_loss": 3.4412420630455016,
+  "best_val_ppl": 31.225718402896415,
+  "best_step": 1500,
+  "final_val_loss": 3.4412420630455016,
+  "final_train_loss": 3.3458278799057006,
+  "trained_tokens": 1536000,
+  "wall_seconds": 59.07875579999927,
+  "train_seconds": 55.00441180000598,
+  "train_tokens_per_second": 27925.032733462172,
+  "validation_note": "Loss/PPL estimated on fixed randomly sampled held-out windows, not every validation token.",
+  "provenance": {
+    "source_file": "TinyStoriesV2-GPT4-valid.txt",
+    "source_sha256": "260119188ea4cd75966ec1cd860c0102112854f9890ca3d2bd157e8751926633",
+    "split_note": "Teaching re-split of a local source pool; not the official train/validation benchmark split. Source file name is preserved above.",
+    "seed": 42,
+    "train_bin_sha256": "6987da652e6ca559fbdc56cb99e2fe64a14278d1dad362c56a38420c57080015",
+    "val_bin_sha256": "7bb710381d2a6b70d4825f64e280847ce4c4e248d4b7f0261a63a38ff86dca44",
+    "tokenizer_sha256": "2d7b49ad102c253ea10a2170fae2c832f752500565f1845addcbf7aa61868814"
+  }
+}
